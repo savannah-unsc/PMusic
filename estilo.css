@@ -1,0 +1,76 @@
+*{
+margin: 0;
+}
+body{
+background-image: url(pattern.jpg);
+background-size: 100vw;
+}
+#player{
+height: 80vh;
+width: 80vw;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10vh;
+margin-bottom: 10vh;
+background-color: #252525ee;
+border: 0px solid #0000;
+border-radius: 15px;
+display: grid;
+grid-template-columns: 40vw 40vw;
+grid-template-rows: 40vh 40vh;
+}
+#form1{
+margin-top: 20vh;
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+#form2{
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 2;
+grid-row-end: 3;
+}
+#form3{
+margin-top: 18vh;
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end: 3;
+}
+.inp{
+height: 5vh;
+width: 15vw;
+border: 0.7px solid #252525;
+border-radius: 5px;
+margin-top: 0.5vh;
+margin-bottom: 0.5vh;
+}
+.btn{
+margin-top: 2.5vh;
+height: 5vh;
+width: 10vw;
+border: 0px solid #0000;
+border-radius: 5px;
+background-color: #252525;
+color: #FFF;
+transition: 0.3s;
+}
+.btn:hover{
+background-color: #323232;
+}
+#lista{
+padding: 2vh 2.5vw;
+border: 0px solid #0000;
+border-radius: 5px;
+background-color: #252525;
+color: #FFF;
+transition: 0.3s;
+text-decoration: none;
+font-family:sans-serif;
+font-size: 14px;
+}
+#lista:hover{
+background-color: #323232;
+}

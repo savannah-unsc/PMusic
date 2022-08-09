@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+<meta name = "viewport" content = "initial-scale=1.0">
+<meta charset="utf-8">
+<link rel="stylesheet" href="estilo.css">
+<title> PMusic - Player </title>
+</head>
+<body>
+
+<div id="player">
+
+<form id="form1" action="deletar.php" method="post">
+<center> <input type="text" class="inp" name="ID" placeholder="Apagar por ID" required> </center> <br>
+<center> <input type="submit" class="btn" value="Apagar" required> </center> <br>
+</form>
+<form id="form2" action="editar.php" method="post">
+<center> <input type="text" class="inp" name="ID" placeholder="Buscar por ID" required> </center> <br>
+<center> <input type="submit" class="btn" value="Buscar" required> </center> <br>
+<br> <br>
+<center> <a href="listar.php" id="lista"> Lista de Músicas </a> </center>
+
+</form>
+
+<form id="form3" action="cadastro.php" method="post">
+<center> <input type="text" class="inp" name="artista" placeholder="Artista" required> </center> <br>
+<center> <input type="text" class="inp" name="musica" placeholder="Nome da Música" required> </center> <br>
+<center> <input type="text" class="inp" name="album" placeholder="Álbum" required> </center> <br>
+<center> <input type="text" class="inp" name="ano" placeholder="Ano" required> </center> <br>
+<center> <input type="text" class="inp" name="duracao" placeholder="Duração" required> </center> <br>
+<center> <input type="submit" class="btn" value="Cadastrar" required> </center> <br>
+</form>
+
+</div>
+
+</body>
+</html>

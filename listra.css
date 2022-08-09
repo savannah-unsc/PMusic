@@ -1,0 +1,53 @@
+#corpo{
+margin-top: 5vh;
+margin-bottom: 5vh;
+margin-left: auto;
+margin-right: auto;
+width: 90vw;
+display: grid;
+grid-template-columns: 15vw 30vw 30vw 7.5vw 7.5vw;
+background-color: #252525ee;
+color: #FFF;
+font-family: sans-serif;
+border-radius: 15px;
+}
+#art{
+margin: 15px 10px 15px 20px;
+font-size: 20px;
+font-weight: bold;
+}
+#mus{
+margin: 15px 10px 15px 20px;
+font-size: 20px;
+font-weight: bold;
+}
+#al{
+margin: 15px 10px 15px 20px;
+font-size: 20px;
+font-weight: bold;
+}
+#an{
+margin: 15px 10px 15px 20px;
+font-size: 20px;
+font-weight: bold;
+}
+#dur{
+margin: 15px 10px 15px 20px;
+font-size: 20px;
+font-weight: bold;
+}
+.artista{
+margin: 15px 10px 15px 20px;
+}
+.musica{
+margin: 15px 10px 15px 20px;
+}
+.album{
+margin: 15px 10px 15px 20px;
+}
+.ano{
+margin: 15px 10px 15px 20px;
+}
+.duracao{
+margin: 15px 10px 15px 20px;
+}
